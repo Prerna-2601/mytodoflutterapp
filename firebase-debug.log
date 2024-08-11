@@ -1,0 +1,31 @@
+[debug] [2024-08-08T10:59:09.978Z] ----------------------------------------------------------------------
+[debug] [2024-08-08T10:59:09.981Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/ffh7wfr8iwmjp4jlqhykaq11v43wiif7-firebase-tools-12.4.8/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2024-08-08T10:59:09.981Z] CLI Version:   12.4.8
+[debug] [2024-08-08T10:59:09.982Z] Platform:      linux
+[debug] [2024-08-08T10:59:09.982Z] Node Version:  v18.19.1
+[debug] [2024-08-08T10:59:09.982Z] Time:          Thu Aug 08 2024 10:59:09 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-08-08T10:59:09.983Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-08T10:59:09.986Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-08-08T10:59:10.035Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-08T10:59:10.368Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-08-08T10:59:10.368Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-08-08T10:59:44.421Z] Error getting account credentials.
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/myapp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
