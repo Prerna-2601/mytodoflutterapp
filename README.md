@@ -1,6 +1,6 @@
-# myapp
+# First  Flutter app ToDo App
 
-A new Flutter project.
+A new Flutter project creating a ToDo list App.
 
 ## Getting Started
 
